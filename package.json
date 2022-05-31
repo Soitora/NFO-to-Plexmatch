@@ -1,0 +1,29 @@
+{
+  "name": "NFO-to-Plexmatch",
+  "description": "Converts .NFO files to .plexmatch files",
+  "version": "1.0.0",
+	"license": "MPL-2.0",
+	"private": true,
+  "type": "module",
+  "main": "main.js",
+	"scripts": {
+		"start": "node main.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Soitora/NFO-to-Plexmatch.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Soitora/NFO-to-Plexmatch/issues"
+	},
+	"homepage": "https://github.com/Soitora/NFO-to-Plexmatch#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "fast-xml-parser": "^4.0.8",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "walk-sync": "^3.0.0",
+    "xml2js": "^0.4.23"
+  }
+}
